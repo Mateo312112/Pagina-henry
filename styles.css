@@ -1,0 +1,522 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 204, 4);
+    padding: 7px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    padding-right: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pagina1 {
+    display: flex;
+}
+
+.imagen1 {
+    padding: 70px
+}
+
+.texto_pagina1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    letter-spacing: -3px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+h1,
+h2,
+.boton_pagina1 {
+    margin: 10px;
+}
+
+.boton_pagina1 {
+    border: 0;
+    background-color: rgb(244, 204, 4);
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
+.pagina2 {
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    background-color: #E6E6E6;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    width: 1200px;
+    height: 250px;
+    margin-left: 320px;
+}
+
+.imagenes_pagina2 {
+    display: flex;
+    gap: 50px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.texto_pagina2 {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.titulo_pagina2 {
+    color: rgb(244, 204, 4);
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 50px;
+    letter-spacing: -3px;
+}
+
+.parrafo_pagina2 {
+    flex-direction: column;
+}
+
+.texto3_pagina2 {
+    font-weight: bold;
+}
+
+.parrafo_pagina2 {
+    margin: -5px;
+}
+
+.pagina3 {
+    background-color: rgb(244, 204, 4);
+    position: absolute;
+    transform: translateY(-170px);
+    width: 100vw;
+    height: 1050px;
+    z-index: 1;
+}
+
+.titulo_pagina3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    letter-spacing: -6px;
+}
+
+.texto_pagina3 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 22px;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.boton_pagina3 {
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 0px;
+}
+
+.imagen_pagina3 {
+    margin-left: 900px;
+    margin-top: -230px;
+    transform: scale(0.9);
+}
+
+.pagina4 {
+    background-color: white;
+    width: 100vw;
+    height: 750px;
+
+}
+
+.caja_pagina4 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 1000px;
+    width: 1450px;
+    height: 675px;
+    background-color: #E6E6E6;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.texto_pagina4 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.titulo_pagina4 {
+    margin-top: 40px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -5px;
+    color: rgb(244, 204, 4);
+}
+
+.boton_pagina4 {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 0px;
+}
+
+.boton_pagina4,
+.texto_pagina5 {
+    margin: 30px;
+}
+
+.grafico_pagina4 {
+    display: flex;
+    height: 230px;
+    margin-top: 350px;
+    margin-right: 100px;
+}
+
+.pagina5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100vw;
+    height: 950px;
+}
+
+.titulo_pagina5 {
+    transform: translateY(30px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(244, 204, 4);
+}
+
+.parrafo_pagina5 {
+    margin-top: 50px;
+    text-align: center;
+    color: white
+}
+
+.imagen_pagina5 {
+    margin-top: 40px;
+}
+
+.boton_pagina5 {
+    margin-top: 30px;
+    border: 0;
+    background-color: rgb(244, 204, 4);
+    font-size: 15px;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+}
+
+.pagina6 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 950px;
+}
+
+.imagen_pagina6,
+.texto_pagina6 {
+    margin: 30px;
+}
+
+.imagen_pagina6 {
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.texto_pagina6 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 270px;
+    margin-right: 200px;
+
+}
+
+.titulo_pagina6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
+.parrafo_pagina6 {
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+.boton_pagina6 {
+    margin-top: 30px;
+    border: 0;
+    background-color: rgb(244, 204, 4);
+    font-size: 15px;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+}
+
+.pagina7 {
+    display: flex;
+    background-color: #E6E6E6;
+    width: 100vw;
+    height: 950px;
+}
+
+.texto_pagina7 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.titulo_pagina7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.boton_pagina7 {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(244, 204, 4);
+    border: 0;
+    width: 170px;
+    height: 40px;
+}
+
+.imagen_pagina7 {
+    align-self: center;
+    margin-left: 200px;
+}
+
+.texto_pagina7,
+.boton_pagina7 {
+    margin: 30px;
+    margin-left: 150px;
+}
+
+.pagina8 {
+    display: flex;
+    align-content: baseline;
+    width: 100vw;
+    height: 850px;
+    margin-bottom: 100px;
+}
+
+.formulario {
+    font-size: 18px;
+    font-weight: bold;
+    width: 550px;
+    height: 520px;
+    margin-left: 200px;
+    margin-top: 150px;
+    padding: 50px;
+    background-color: black;
+    border: white;
+}
+
+input {
+    border-color: white;
+    background-color: transparent;
+    display: flex;
+    width: 542px;
+    height: 25px;
+    margin-bottom: 0px;
+}
+
+.nombres_primero {
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+    color: white;
+}
+
+.formularios_horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+span {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.caja_texto input {
+    height: 150px;
+}
+
+.texto_pagina8 {
+    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: baseline;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+.texto2_pagina8 {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.titulo2_pagina8 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(244, 204, 4);
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+
+.parrafo2_pagina8 {
+    font-size: 20px;
+}
+
+.boton_pagina8 {
+    margin-top: 30px;
+    border: 0;
+    border-color: white;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+}
+
+.pagina9 {
+    display: flex;
+    background-color: rgb(244, 204, 4);
+    height: 1070px;
+    justify-content: center;
+}
+
+.texto_pagina9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_pagina9 {
+    font-size: 43px;
+    letter-spacing: -2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.parrafo_pagina9 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.imagen_pagina9 img {
+    width: 1500px;
+    margin-bottom: 30px;
+}
+
+.boton_pagina9 {
+    font-weight: bold;
+    margin-top: 30px;
+    border: 0;
+    border-color: white;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    width: 203px;
+    height: 60px;
+}
+
+.pagina10 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 700px;
+    color: rgb(244, 204, 4);
+}
+
+.logo2 {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.lista_final {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    font-size: 21px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 60px;
+    margin-bottom: 150px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 20px 60px;
+}
+
+.logos_finales img {
+    background-color: rgb(244, 204, 4);
+}
+.logos_finales{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 1640px;
+}
+.letras_finales{
+    margin-left: 60px;
+}
